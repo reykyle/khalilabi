@@ -1658,19 +1658,25 @@ input:focus, textarea:focus, select:focus, button:focus {
     /* padding: 25px 0px;*/
 }
 
-}
+} 
 
 @media screen and (min-width: 640px) {
   
 .prt_home_wrapper h1 {
-    position: absolute;
-    top: 50%;
-    font-size: 127px;
+ white-space: 17px;
+    /* position: absolute; */
+    /* letter-spacing: 7px; */
+    /* word-spacing: 9px; */
+    /* text-align: left; */
+    line-height: 70px;
+    /* top: 50%; */
+    font-size: 54px;
     color: #3e3e3e;
     font-weight: bold;
     /* background: url(../images/content/k3.jpg) no-repeat; */
     background-size: cover;
     background-position: -41px -85px;
+    margin: 149px 204px 0px 48px;
 }
 
 }
