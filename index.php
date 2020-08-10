@@ -12,7 +12,7 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta name="description" content="Portfolio khalil abi ">
-<meta name="keywords" content=" Portfolio, cv, khalil, abi , ">
+<meta name="keywords" content=" Portfolio, cv, khalil, ab , ">
 <meta name="author" content="hsoft" >
 <meta name="MobileOptimized" content="320">
 <!--Srart Style -->
