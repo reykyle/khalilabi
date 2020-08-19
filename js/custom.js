@@ -20,12 +20,12 @@ s
 		$(".prt_home_wrapper").css("height", window_height);
 	
 	//Portfolio Load More
-	$(".prt_loadmore").slice(0, 3).show();
+	$(".prt_loadmore").slice(0, 2).show();
     $("#loadMore").on('click', function (e) {
         e.preventDefault();
         $(".prt_loadmore:hidden").slice(0, 5).slideDown();
         if ($(".prt_loadmore:hidden").length == 0) {
-            $("#load").fadeOut('slow');
+            $("#loadMore").hide();
         }
     });
 	
