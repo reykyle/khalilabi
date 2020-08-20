@@ -20,10 +20,10 @@ s
 		$(".prt_home_wrapper").css("height", window_height);
 	
 	//Portfolio Load More
-	$(".prt_loadmore").slice(0, 2).show();
+	$(".prt_loadmore").slice(0,10).show();
     $("#loadMore").on('click', function (e) {
         e.preventDefault();
-        $(".prt_loadmore:hidden").slice(0, 5).slideDown();
+        $(".prt_loadmore:hidden").slice(0,5).slideDown();
         if ($(".prt_loadmore:hidden").length == 0) {
             $("#loadMore").hide();
         }
@@ -53,7 +53,7 @@ s
 	});
 	
 	//Skills Charts
-	$('.prt_skills_wrapper').appear(function() {
+		$('.prt_heading_wrapper').appear(function() {
 		var circle1 = Circles.create({
 			id: 'circles-1',
 			value: 70,
@@ -81,17 +81,57 @@ s
 			number: 75,
 			text: '75%',
 			width: 8,
-			colors: ["#202020", "#f26525"],
+			colors: ["#202020", "#cb4d96"],
 			duration: 900
 		});
 		var circle4 = Circles.create({
 			id: 'circles-4',
+			value: 40,
+			radius: 100,
+			number: 70,
+			text: '40%',
+			width: 8,
+			colors: ["#202020", "#ae7fb7"],
+			duration: 900
+		});
+		var circle5 = Circles.create({
+			id: 'circles-5',
+			value: 75,
+			radius: 100,
+			number: 70,
+			text: '75%',
+			width: 8,
+			colors: ["#202020", "#f26525"],
+			duration: 900
+		});
+		var circle6 = Circles.create({
+			id: 'circles-6',
 			value: 60,
 			radius: 100,
 			number: 70,
 			text: '60%',
 			width: 8,
 			colors: ["#202020", "#1d8bbe"],
+			duration: 900
+		});
+		var circle7 = Circles.create({
+			id: 'circles-7',
+			value: 50,
+			radius: 100,
+			number: 70,
+			text: '50%',
+			width: 8,
+			colors: ["#202020", "#20a1a1"],
+			duration: 900
+		});
+		var circle8 = Circles.create({
+			id: 'circles-8',
+			value: 30,
+			radius: 100,
+			number: 70,
+			text: '30%',
+			width: 8,
+			colors: ["#202020", "#f6f6f6"],
 			duration: 900
 		});
 	});
@@ -171,11 +211,11 @@ s
 		
 		targetSection = $('.prt_'+tar+'_wrapper');
 		if(tar == 'about'){
-			AplCss  = {'top':0};
+			AplCss  = {'top':-45};
 		}else if(tar == 'contact'){
 			AplCss  = {'left':0 , };
 		}else if(tar == 'services'){
-			AplCss  = {'bottom':0 , 'top':0};
+			AplCss  = {'bottom':0 , 'top':-120};
 		}else if(tar == 'portfolio'){
 			AplCss  = {'right':0};
 		}
