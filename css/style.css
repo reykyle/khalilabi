@@ -3054,7 +3054,7 @@ background-image: radial-gradient(circle farthest-corner at 56% -8%, #c74b42 8%,
 /* FontAwesome for working BootSnippet :> */
 
 #team {
-    background: #eee !important;
+    /*background: #eee !important;*/
 }
 
 .btn-primary:hover,
